@@ -1,3 +1,4 @@
+# Build Caddy image with DigitalOcean DNS module
 FROM caddy:builder-alpine AS builder
 
 RUN xcaddy build \
